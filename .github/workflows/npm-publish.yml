@@ -5,7 +5,7 @@ on:
 
 jobs:
   call-update-workflow-local-repo:
-    uses: kobyhallx/barretenberg/.github/workflows/update.yml@master
+    uses: noir-lang/barretenberg/.github/workflows/update.yml@master
     secrets: inherit
 
   publish-npm:
