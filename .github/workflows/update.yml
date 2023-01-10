@@ -21,7 +21,7 @@ jobs:
       - uses: actions/checkout@v3
         with:
           repository: 'noir-lang/aztec-connect'
-          ref: 'a84ef3efdc8240d86bde70469dc6a3d94fff4f3e'
+          ref: 'a35cd3b0cd6d0dccde7640204531094fb9b4362d'
           path: '.cache/aztec-connect'
 
       - name: Collect Revision
