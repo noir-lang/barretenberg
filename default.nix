@@ -1,8 +1,8 @@
-{ pkgs ? import <nixpkgs> {} }:
+{ nixpkgs ? import <nixpkgs> {} }:
 
-pkgs.mkShell {
+nixpkgs.mkShell {
   
-  nativeBuildInputs = with pkgs; [
+  nativeBuildInputs = with nixpkgs; [
     git
     nodejs
     nodePackages.npm
