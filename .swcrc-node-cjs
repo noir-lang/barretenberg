@@ -1,0 +1,36 @@
+{
+    "$schema": "https://json.schemastore.org/swcrc",
+    "jsc": {
+        "parser": {
+            "syntax": "typescript",
+            "tsx": false,
+            "decorators": false,
+            "dynamicImport": false
+        },
+        "target": "es2018",
+        "loose": false,
+        "minify": {
+            "compress": {
+                "dead_code": true
+            }
+        },
+        "transform": {
+            "constModules": {
+                "globals": {
+                    "../isNode": {
+                        "isNode": "true"
+                    },
+                    "./isNode": {
+                        "isNode": "true"
+                    }
+                }
+            }
+        }
+    },
+    "module": {
+        "type": "commonjs",
+        "noInterop": false,
+        "lazy": false
+    },
+    "minify": false
+}
