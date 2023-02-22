@@ -26,7 +26,7 @@ else
     echo "$AZCON_REPO_CACHE does not exists on your filesystem, clonning from $AZCON_CLONE_URL"
     git clone $AZCON_CLONE_URL $AZCON_REPO_CACHE
     cd $AZCON_REPO_CACHE
-    git checkout a35cd3b0cd6d0dccde7640204531094fb9b4362d
+    git checkout 8c75fc368ae1bb55494c3dd4321f49c55683981e
 fi
 
 cp -a "$AZCON_REPO_CACHE/." "$AZCON_BUILD/"

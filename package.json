@@ -1,6 +1,6 @@
 {
   "name": "@noir-lang/barretenberg",
-  "version": "2.19.0-a35cd3b",
+  "version": "2.19.0-8c75fc36",
   "license": "GPL-2.0",
   "scripts": {
     "build": "yarn clean && tsc -p tsconfig.dest.json && parcel build ./src/wasm/worker.ts --no-source-maps --out-dir ./dest && node ./package.js",
