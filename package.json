@@ -24,7 +24,7 @@
     "since 2017-06"
   ],
   "peerDependencies": {
-    "@noir-lang/aztec_backend": "https://github.com/kobyhallx/aztec-backend#c166c88595b3972fde2f4e3c54fa17d96f8ecfdf"
+    "@noir-lang/aztec_backend": "https://github.com/kobyhallx/aztec-backend#1bcdd4bf67dad1ab977867f1d655bcab7085a518"
   },
   "dependencies": {
     "@types/detect-node": "^2.0.0",
