@@ -1,4 +1,4 @@
 # Barretenberg WASM JavaScript Package
 
 ## Tracks
-Noir's Aztec Connect Repository [noir-lang/aztec-connect@8c75fc36](https://github.com/noir-lang/aztec-connect/tree/8c75fc368ae1bb55494c3dd4321f49c55683981e)
+Noir's Aztec Connect Repository [joss-aztec/aztec-connect@345effc4](https://github.com/joss-aztec/aztec-connect/tree/345effc4be463dbff39a836c13683472ab0ef5f)

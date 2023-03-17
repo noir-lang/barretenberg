@@ -1,5 +1,6 @@
 import './buffer.js';
 export * from "./wasm/barretenberg_wasm.js";
+export * from './wasm/worker_pool.js'
 
 export * from './crypto/aes128/index.js';
 export * from './crypto/blake2s/index.js';
@@ -13,6 +14,8 @@ export * from './client_proofs/join_split_proof/index.js';
 export * from './client_proofs/generic_proof/index.js';
 export * from './client_proofs/proof_data/index.js';
 export * from './client_proofs/prover/index.js';
+
+export * from './crs/index.js'
 
 export * from './fft/index.js';
 
